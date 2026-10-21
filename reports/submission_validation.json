@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "repository": "https://github.com/LOVA-malamud/vision03-mask-ai",
+  "initial_publication_commit_verified": "2d0aa07ebf804039b355952347c548319c845e3d",
+  "github_required_files_anonymously_downloaded": true,
+  "pytest_passed": 16,
+  "frontend_file_validation_checks_passed": 8,
+  "production_build": "passed",
+  "pip_check": "passed",
+  "npm_audit_vulnerabilities": 0,
+  "python_audit_unique_advisories": [
+    "PYSEC-2026-1805"
+  ],
+  "nbformat_validation": "passed",
+  "notebook_cells": 22,
+  "full_colab_run_completed_previously": true,
+  "full_notebook_rerun_this_review": false,
+  "notebook_decoder_and_loader_executed_locally": true,
+  "test_set_recomputed": 1321,
+  "physical_phone_test_confirmed": false,
+  "fresh_browser_automation": "unavailable: no browser connected",
+  "image_save_prior_test": "byte-identical fixture download confirmed in earlier session",
+  "image_save_current_confirmation": false,
+  "heic_direct_support": false,
+  "model_unchanged": true,
+  "ready_for_submission": false,
+  "remaining_actions": [
+    "Confirm physical phone camera, gallery and classification",
+    "Confirm Save image creates a downloaded file in a regular browser"
+  ],
+  "email_sent": false
+}

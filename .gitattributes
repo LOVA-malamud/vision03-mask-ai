@@ -1,0 +1,5 @@
+# Preserve original CSVLogger CRLF output without treating CR as trailing spaces.
+reports/history.csv whitespace=cr-at-eol
+*.keras binary
+*.png binary
+*.jpg binary
