@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "image/jpeg accepted",
+    "image/png accepted",
+    "image/webp accepted",
+    "image/heic rejected clearly",
+    "image/heif rejected clearly",
+    "text/html rejected clearly",
+    "empty file rejected",
+    "oversized file rejected"
+  ],
+  "passed": 8,
+  "scope": "Pure file validation logic; not a browser, camera, or native HEIC conversion test"
+}

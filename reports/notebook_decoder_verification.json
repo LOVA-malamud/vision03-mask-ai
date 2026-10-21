@@ -1,0 +1,6 @@
+{
+  "samples": 3,
+  "includes": "both held-out class fixtures and synthetic MPO",
+  "notebook_backend_pixel_arrays": "exact match",
+  "training_rerun": false
+}

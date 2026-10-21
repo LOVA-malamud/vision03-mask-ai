@@ -1,0 +1,34 @@
+{
+  "model_version": "20261017T175219Z",
+  "url": "http://127.0.0.1:8001/",
+  "browser": "Codex in-app browser",
+  "user_selected_image": true,
+  "image_in_submission": false,
+  "preview_dimensions": [
+    2316,
+    3088
+  ],
+  "observed_format": "MPO",
+  "frames": 2,
+  "initial_status": 422,
+  "fix": "Decode primary still MPO JPEG; preserve shared EXIF/RGB/bilinear64/float32 normalization",
+  "final_http_status": 200,
+  "prediction": "without_mask",
+  "displayed_probability_without_mask_percent": 76.0,
+  "displayed_probability_with_mask_percent": 24.0,
+  "displayed_elapsed_seconds": 0.21,
+  "new_model_browser_upload_to_prediction": "passed",
+  "browser_errors": [],
+  "displayed_test_accuracy": "94.2%",
+  "test_count": 1321,
+  "save_button_separate": true,
+  "current_image_download": "unverified: download event timeout and no matching file found in Downloads",
+  "previous_unchanged_save_button_verification": {
+    "status": "passed previously; downloaded fixture hash rechecked",
+    "sha256": "83cdeb38911b00fd6959d84f60a56197a7037d496c96fa77812abcd8d8631e30"
+  },
+  "gallery_accept": "image/jpeg,image/png,image/webp",
+  "camera_accept": "image/*",
+  "camera_capture": "user",
+  "physical_phone_capture_tested": false
+}

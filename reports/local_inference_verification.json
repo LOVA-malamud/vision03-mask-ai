@@ -1,0 +1,21 @@
+{
+  "model_version": "20261017T175219Z",
+  "tensorflow": "2.16.2",
+  "keras": "3.12.0",
+  "predictions": {
+    "with_mask.jpg": {
+      "probability_without_mask": 0.0020601616706699133,
+      "label": "with_mask",
+      "image_sha256": "83cdeb38911b00fd6959d84f60a56197a7037d496c96fa77812abcd8d8631e30",
+      "preprocessed_sha256": "b1f027581b26a0a8258a552604b3e781bd7e1eb76e9532af69d9896374eaef0b"
+    },
+    "without_mask.jpg": {
+      "probability_without_mask": 0.8163670897483826,
+      "label": "without_mask",
+      "image_sha256": "935e855b39668777d1fd914f47654a8e3aa99b0d9f6d63aa1308a0764d6bd28a",
+      "preprocessed_sha256": "4053686869c22719461d592cf1f24fac0a5b4bb97ad94ba707755f61c70abd5d"
+    }
+  },
+  "colab_local_max_difference": 9.313225746154785e-10,
+  "colab_local_prediction_parity": true
+}

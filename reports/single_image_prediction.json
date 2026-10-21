@@ -1,0 +1,9 @@
+{
+  "file": "with_mask.jpg",
+  "label": "with_mask",
+  "probability_without_mask": 0.002060162601992488,
+  "probability_with_mask": 0.9979398373980075,
+  "model_version": "20261017T175219Z",
+  "image_sha256": "83cdeb38911b00fd6959d84f60a56197a7037d496c96fa77812abcd8d8631e30",
+  "preprocessed_sha256": "b1f027581b26a0a8258a552604b3e781bd7e1eb76e9532af69d9896374eaef0b"
+}

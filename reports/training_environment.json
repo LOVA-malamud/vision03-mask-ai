@@ -1,0 +1,11 @@
+{
+  "environment": "Google Colab T4 GPU",
+  "tensorflow_training": "2.21.0",
+  "keras_training": "3.12.0",
+  "python_training": "3.13",
+  "model_version": "20261017T175219Z",
+  "notebook_execution": "Training outputs preserved from completed Colab run; recovery, reload, single-image prediction and export executed after runtime reset. No retraining during recovery.",
+  "colab_account_execution": "completed",
+  "drive_notebook_save": "Blocked by Google Drive storage quota; complete notebook with outputs downloaded locally.",
+  "dataset_version": 1
+}

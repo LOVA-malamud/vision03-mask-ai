@@ -1,0 +1,11 @@
+{
+  "model_version": "20261017T175219Z",
+  "backup": "Preserved locally outside the public repository",
+  "previous_model_version": "20261017T172431Z",
+  "retrained_during_recovery": false,
+  "colab_artifacts_zip_sha256": "9e9938490a8155154f73911375a2e5e12ddd5f70e6ae18f762644a6c515508bc",
+  "notebook_cloud_save": "blocked: Google Drive storage quota exceeded",
+  "notebook_local_save": "downloaded with outputs",
+  "post_download_edit": "MPO primary-frame compatibility in shared decoder and notebook; existing outputs retained, no retraining",
+  "tests_passed": 13
+}

@@ -1,0 +1,29 @@
+{
+  "health": {
+    "model_ready": true,
+    "model": {
+      "version": "20261017T175219Z",
+      "test_accuracy": 0.9417108251324754,
+      "test_count": 1321,
+      "train_count": 6155,
+      "validation_count": 1318,
+      "validation_accuracy": 0.9559939503669739,
+      "best_epoch": 16
+    }
+  },
+  "real_http_predictions": {
+    "with_mask.jpg": {
+      "prediction": "with_mask",
+      "probability_with_mask": 0.9979398383293301,
+      "probability_without_mask": 0.0020601616706699133,
+      "model_version": "20261017T175219Z"
+    },
+    "without_mask.jpg": {
+      "prediction": "without_mask",
+      "probability_with_mask": 0.18363291025161743,
+      "probability_without_mask": 0.8163670897483826,
+      "model_version": "20261017T175219Z"
+    }
+  },
+  "invalid_upload_status": 422
+}

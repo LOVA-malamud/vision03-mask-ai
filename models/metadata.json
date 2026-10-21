@@ -1,0 +1,49 @@
+{
+  "version": "20261017T175219Z",
+  "trained": true,
+  "sha256": "14e1221d9bb28a8ece1278c3200e007f4ccde6650d642c65570a9c16bb785d79",
+  "class_mapping": {
+    "with_mask": 0,
+    "without_mask": 1
+  },
+  "preprocessing": {
+    "image_size": [
+      64,
+      64
+    ],
+    "channels": "RGB",
+    "exif_transpose": true,
+    "resize": "Pillow.BILINEAR",
+    "dtype": "float32",
+    "normalization": "divide_by_255",
+    "input_shape": [
+      null,
+      64,
+      64,
+      3
+    ],
+    "sigmoid_positive_class": "without_mask",
+    "threshold": 0.5
+  },
+  "tensorflow_version": "2.21.0",
+  "seed": 42,
+  "epochs_trained": 20,
+  "best_epoch": 16,
+  "parameters": 813217,
+  "train_count": 6155,
+  "validation_count": 1318,
+  "test_count": 1321,
+  "validation_accuracy": 0.9559939503669739,
+  "validation_loss": 0.12398527562618256,
+  "test_accuracy": 0.9417108251324754,
+  "test_loss": 0.15412013109636094,
+  "dataset": {
+    "url": "https://www.kaggle.com/datasets/shiekhburhan/face-mask-dataset",
+    "slug": "shiekhburhan/face-mask-dataset",
+    "version": 1,
+    "license": "CC0: Public Domain (Kaggle metadata)"
+  },
+  "dataset_archive_sha256": "eb2bad94705dce6d3ef5f573431edcf7c82aa3634cd4ee3c36ea296f51895581",
+  "reload_max_absolute_difference": 0.0,
+  "training_environment": "GPU"
+}

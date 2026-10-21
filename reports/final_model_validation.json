@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "model_version": "20261017T175219Z",
+  "model_sha256": "14e1221d9bb28a8ece1278c3200e007f4ccde6650d642c65570a9c16bb785d79",
+  "trained_weight_tensors_different_from_initialization": 8,
+  "weight_tensors": 8,
+  "test_count": 1321,
+  "recomputed": {
+    "accuracy": 0.9417108251324754,
+    "loss": 0.1541202856110884,
+    "confusion_matrix": [
+      [
+        670,
+        43
+      ],
+      [
+        34,
+        574
+      ]
+    ]
+  },
+  "recorded_loss": 0.15412013109636094,
+  "loss_difference": 1.545147274573111e-07,
+  "history_epochs": 20,
+  "best_epoch": 16,
+  "notebook_code_ast": "passed",
+  "notebook_decoder_loader_execution": "passed",
+  "notebook_backend_inference_parity": "passed",
+  "full_notebook_rerun": false,
+  "training_rerun": false,
+  "split_overlap": false,
+  "model_unchanged": true
+}
