@@ -1,3 +1,40 @@
+# VISION · Face Mask CNN
+
+An educational image-classification application connecting a TensorFlow/Keras CNN to a FastAPI backend and a React/TypeScript interface. The UI and detailed learning guide are in Hebrew.
+
+**Status:** model and application evidence are recorded; physical-phone camera/gallery/save acceptance remains pending. No public deployment is claimed.
+
+[Hebrew guide](#hebrew-guide) · [Training notebook](notebooks/Project03_VISION_HE.ipynb) · [Verification](docs/VERIFICATION.md) · [Final review](docs/FINAL_REVIEW_HE.md)
+
+## What to explore
+
+- A binary classifier for whole input images: with mask / without mask.
+- Shared preprocessing between training and inference, and validation of the model/metadata pair.
+- Upload validation, a Hebrew RTL interface, and backend tests.
+- Reproducible training notes and recorded evaluation artifacts under [reports](reports/).
+
+The classifier does not detect faces or assess correct mask placement. Recorded dataset metrics are not evidence of real-world deployment performance.
+
+## Local setup
+
+The existing guide records Python 3.12 on Intel macOS; use Python 3.10–3.12 and Node.js 22+. From the repository root:
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r backend/requirements.txt
+npm --prefix frontend ci
+npm --prefix frontend run build
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8001
+```
+
+Open http://127.0.0.1:8001 after application startup completes. The bundled model is used without retraining. For checks, run `python -m pytest -q` in that environment. These commands were checked against repository paths and manifests; dependencies, TensorFlow inference and physical-device behavior were not rerun for this documentation change. [Verification](docs/VERIFICATION.md) and [final model validation](reports/final_model_validation.json) retain the recorded results and limits.
+
+<a id="hebrew-guide"></a>
+
+<details>
+<summary>Full Hebrew guide · מדריך לימודי מלא</summary>
+
 # Project 03 · VISION — Face Mask CNN
 
 יישום לימודי שמסווג **תמונת פנים שלמה** ל־**עם מסכה** או **ללא מסכה**. React + TypeScript (ממשק עברי RTL), FastAPI, ו־CNN קטן שנבנה ואומן מאפס ב־TensorFlow/Keras. התחזיות אמיתיות; אין שירות AI חיצוני או מפתח API.
@@ -113,3 +150,5 @@ python -m pytest -q
 המודל אומן ב־Keras 3.12.0, ונבדק מחדש ב־Keras 3.15.1 ו־Pillow 13.0.0 לאחר עדכוני אבטחה. המשקלים המקוריים לא השתנו. `reports/final_model_validation.json` מתעד הערכה חוזרת על כל 1,321 תמונות המבחן. `reports/python_audit.json` ו־`reports/npm_audit.json` מכילים את הסריקות; נותרה התראת Protobuf אחת שאינה נמצאת בנתיב הקלט של היישום, כמפורט בדוח הביקורת. אין טענה למוכנות לשירות ציבורי קבוע.
 
 גודל המודל כ־9.8 MB, ולכן הוא כלול ישירות ב־Git ללא צורך ב־Git LFS. הנתונים המלאים אינם כלולים; שתי תמונות בדיקה ציבוריות בלבד מצורפות עם נתיבי המקור שלהן.
+
+</details>
